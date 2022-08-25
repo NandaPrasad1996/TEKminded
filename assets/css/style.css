@@ -75,7 +75,7 @@ button:focus {
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  color: #3b3592;
+  color: #2b5726;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
 }
@@ -96,6 +96,9 @@ h3 {
 p {
   font-size: 15px;
   margin-bottom: 15px;
+  color: #002160;
+  font-weight: 600;
+
 }
 
 p:last-child {
@@ -487,7 +490,7 @@ Section Title Area Style
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: #8bc278;
+  color: #2b5726;
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -591,7 +594,7 @@ Peru Nav Area Style
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #008b8b;
   opacity: 0.7;
   z-index: -1;
 }
@@ -607,7 +610,7 @@ Peru Nav Area Style
   height: 100%;
   top: 0;
   left: 0;
-  background-image: url(../img/shape/2.png);
+  /* background-image: url(../img/shape/2.png); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -619,17 +622,17 @@ Peru Nav Area Style
   font-weight: 600;
   font-size: 14px;
   text-transform: capitalize;
-  color: #3b3592;
+  color: #002160;
   margin-left: 12px;
   margin-right: 12px;
 }
 
 .peru-nav .main-nav nav .navbar-nav .nav-item a.active {
-  color: #8bc278;
+  color: #01ffff;
 }
 
 .peru-nav .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #8bc278;
+  color: #01ffff;
 }
 
 
@@ -655,11 +658,11 @@ Peru Nav Area Style
 }
 
 .peru-nav .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #8bc278;
+  color: #01ffff;
 }
 
 .peru-nav .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover {
-  color: #8bc278;
+  color: #01ffff;
 }
 
 .peru-nav .main-nav nav .navbar-nav .nav-item .dropdown-menu li a {
@@ -684,7 +687,7 @@ Peru Nav Area Style
 }
 
 .peru-nav .others-option .contact-number {
-  color: #3b3592;
+  color: #002160;
   font-size: 14px;
   font-weight: 600;
   -webkit-transition: all 0.5s;
@@ -746,7 +749,7 @@ Peru Nav Area Style
   left: 0;
   width: 100%;
   z-index: 999;
-  background-color: #ffffff;
+  background-color: #008b8b;
   -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
           box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
@@ -759,6 +762,15 @@ Peru Nav Area Style
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
   top: -7px !important;
+}
+.navbar-brand img{
+  width: 300px;
+  height: 60px;
+}
+.mobile-nav .logo img{
+  width: 200px;
+  height: 50px;
+  margin-top: 5px;
 }
 
 /*
@@ -1204,7 +1216,7 @@ Box Area Style
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #5d599ffa;
+  background-color: #00b8e4;
   opacity: 1;
   z-index: -1;
   border-radius: 0 30px 0 30px;
@@ -1325,13 +1337,14 @@ Box Area Style
 }
 
 .single-box.single-box-2 h3 {
-  color: #3b3592;
+  color: #2b5726;
   margin-bottom: 12px;
 }
 
 .single-box.single-box-2 p {
-  color: #4a4a4a;
-  margin-bottom: -6px;
+  color: #002160;
+    margin-bottom: -6px;
+    font-weight: 600;
 }
 
 /*
@@ -1345,7 +1358,7 @@ About Us Area Style
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: #8bc278;
+  color: #2b5726;
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -1550,7 +1563,7 @@ Start Choose Area Style
 .choose-bg-area .single-box {
   border-radius: 0;
   margin-bottom: 0;
-  border: 1px solid #203157;
+  border: 1px solid #00b8e4;
   padding: 30px 28px;
   background-image: url(../img/shape/2.png);
   background-position: center center;
@@ -2353,7 +2366,7 @@ Footer Top Area Style
 Footer Bottom Area Style
 ================================*/
 .footer-bottom-area {
-  background-color: #3d60b1;
+  background-color: #002160eb;
   padding: 15px 0;
 }
 
@@ -3324,7 +3337,7 @@ Coming Soon Area Style
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #3b3592;
+  background-color: #4e8f54;
   opacity: 0.9;
   z-index: 1;
 }
@@ -3362,7 +3375,7 @@ Coming Soon Area Style
 .coming-soon-content h4 {
   margin-bottom: 0;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   margin-bottom: 15px;
 }
